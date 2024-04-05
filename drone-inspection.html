@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<meta charset="UTF-8">
+	<title>Drone-inspection</title>
+	<!-- =============== META =============== -->
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<link rel="shortcut icon" href="img/favicon.png">
+	<!-- =============== STYLE =============== -->
+	<link rel="stylesheet" href="css/critical.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-Avb2QiuDEEvB4bZJYdft2mNjVShBftLdPG8FJ0V7irTLQ8Uo0qcPxh4Plq7G5tGm0rU+1SPhVotteLpBERwTkw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+	<style>
+		.preloader-active .preloader-cover{
+			height: 4000px;
+			transform: translate(-50%,-50%) rotate(45deg);
+		}
+		.preloader-cover{
+			height: 0;
+			width: 4000px;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-50%) rotate(45deg);
+			background: #131213;
+			position: fixed;
+			z-index: 999;
+			overflow: hidden;
+			transition: .8s cubic-bezier(0.65, 0.05, 0.36, 1) .3s;
+			overflow: hidden;
+			will-change: top, left;
+		}
+	</style>
+</head>
+
+<body id="home" class="home preloader-active" style="background-image: url(img/bg-body.svg);">
+	<!--=============== PRELOADER ===============-->
+	<div class="preloader-cover">
+		<div class="preloader">
+			<div class="ajax-loader">
+				<div class="ajax-loader-logo">
+					<div class="ajax-loader-circle">
+						<svg class="ajax-loader-circle-spinner" viewBox="0 0 500 500" xml:space="preserve">
+							<circle cx="250" cy="250" r="239" />
+						</svg>
+					</div>
+					<div class="ajax-loader-letters"><img style="width: 90%;" src="images-vedios/FAV ICON.png" alt=""></div>
+				</div>
+			</div>
+		</div>
+	</div>
+	<!--============= PRELOADER END =============-->
+
+	<!--=============== HEADER ===============-->
+	<header class="header">
+		<div class="container">
+			<a href="#" class="nav-btn">
+				<span></span>
+				<span></span>
+				<span></span>
+			</a>
+			<div class="row align-items-center">
+				<!--=============== LOGO ===============-->
+				<div class="col-12 col-sm-6 col-lg-3 logo-item">
+					<a href="index.html" class="logo"><img src="images-vedios/skylablogo.png" alt="logo"></a>
+				</div>
+				<!--============= LOGO END =============-->
+				<div class="col-6 nav-menu-cover">
+					<!--============= NAV MENU =============-->
+					<nav class="nav-menu">
+						<ul class="nav-list">
+							<li>
+								<a href="index.html">Home</a>
+							</li>
+							<li class="dropdown">
+								<a href="#">Services <i class="fa fa-angle-down" aria-hidden="true"></i></a>
+								<ul>
+									<li><a href="surveying-mapping.html">Surveying / Mapping</a></li>
+									<li><a href="creative-areilphotography.html">Creative Aerial Content</a></li>									
+									<li class="active"><a href="drone-inspection.html">Drone Inpection</a></li>
+									<li><a href="drone-training.html">Drone course</a></li>
+								</ul>
+							</li>
+							<!--<li class="active"><a href="gallery.html">Gallery</a></li> -->
+							<li><a href="contacts.html">Contact Us</a></li>
+						</ul>
+					</nav>
+					<!--=========== NAV MENU END ===========-->
+				</div>
+				<div class="col-12 col-sm-6 col-lg-3">
+					<!--============ HEADER ICON ============-->
+					<ul class="header-icon">
+						<li class="search">
+							<a class="icon" href="#">
+								<i class="fa fa-search" aria-hidden="true"></i>
+							</a>
+							<form action="#">
+								<input type="search" name="search" placeholder="Search">
+								<button type="submit"><i class="fa fa-search" aria-hidden="true"></i></button>
+							</form>
+						</li>
+						<li class="favorites">
+							<a class="icon" href="#">
+								<i class="fa fa-heart" aria-hidden="true"></i>
+								<span>2</span>
+							</a>
+						</li>
+						<li>
+							<a class="icon" href="#">
+								<i class="fa fa-user" aria-hidden="true"></i>
+							</a>
+						</li>
+						<li>
+							<a class="icon" href="#">
+								<i class="fa fa-shopping-cart" aria-hidden="true"></i>
+							</a>
+						</li>
+					</ul>
+					<!--========== HEADER ICON END ==========-->
+				</div>
+			</div>
+		</div>
+	</header>
+	<!--============= HEADER END =============-->
+
+	<!--============== PAGE-TITLE ==============-->
+	<div class="page-title" style="background-image: url(images-vedios/droneinspection_banner.jpg);">
+		<div class="container">
+			<h1 class="title">Drone Inpection</h1>
+			<div class="breadcrumbs">
+				<ul>
+					<li><a href="index.html">Home</a></li>
+					<li><a href="#">Drone Inpection</a></li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	<!--============ PAGE-TITLE END ============-->
+
+	<!--============== S-WE-OFFER ==============-->
+	<section class="s-we-offer">
+		<div class="container">
+			<h2 class="heading">Inspection and Analysis</h2>	
+			<div>	
+			
+				<div class="slogan organize">
+				SKYLAB360 provides detailed and quick drone inspection for critical asset infrastructure. Our fleet of drones and drone pilots across the country can be deployed on a short notice. We have inspected more than 400 wind turbine blades, about 300km transmission line and many flare stacks, chimneys and pipelines for oil and gas industry. Drone Inspection is carried out by both RGB and thermal sensors to detect visual defects and damages proving to be one of the fastest means of non-destructive testing of critical assets. RGB sensors include high resolution zoom cameras and thermal sensors include Flir 336, Flir 640, XT2 and more.
+			</div>
+			<div class="slogan organize">
+				The inspected data is then collated and an autonomous report is generated giving details on defect wise distribution, level of severity and asset wise information. Clients get access to our cloud based platform to review the entire report and a summary is available on easy to interpret dashboard. The images of the defects observed are linked with the respective assets and the entire report can be downloaded, shared with collaeagues & contractors and actions taken can be recorded.
+			</div>
+
+			<div class="slogan organize">In certain cases, we have helped our clients achieve upto 4x faster inspection compared to their old conventional methods, helped them reduce the critical asset downtime and avoid risk to human life.</div>
+
+			<div class="slogan organize">
+				We carefully do planning by reviewing area where the survey has to be drone, the drone flies over the area collects data. An analysis is then perofrmed on the inspection done. Various insights can be drawn and defects can thereby be rectified effeciently.
+			</div>
+
+				<section>
+			<div class="slogan organize">
+				<h2 class="heading">Inspection And Monitoring Application</h2>	
+				<div class="c-service">
+					<div class="aerial-photo">
+						<div class="c-img-div">
+							<img class="c-img" src="https://www.equinoxsdrones.com/wp-content/uploads/2023/07/residential-1.jpg" alt="">
+						</div>
+						<div class="c-txt-div">
+							<h3 class="heading">Drone Images</h3>
+							High resolution drone Images of inaccessible areas of critical assets are captured using high endurance drones by professional drone pilots. The RGB + Thermal data helps clients to analyze asset health in operational and in under load conditions. Our drone inspection services include wind turbine inspection, transmission tower inspection, oil & gas inspection and solar panel inspection						
+						</div>
+					</div>
+					<div class="aerial-photo">
+
+						<div class="c-txt-div">
+							<h3 class="heading">Drone Videos</h3>
+							Drone videos help in taking a quick overview of assets and for plant area surveillance. Drone videos can also be of critical help during major plant shutdown wherein it can help to monitor and coordinate the entire activity in order to avoid bottlenecks, improve safety and avoid hazards & accidents. Our drone video platform helps easy uploading, editing, tagging critical information and colllaborating with teams.						
+						</div>
+
+						<div class="c-video-div">
+							<video class="c-video" autoplay loop controls muted>
+								<source src="https://www.equinoxsdrones.com/wp-content/uploads/2023/07/banner-1.mp4">
+							</video>
+						</div>
+						
+					</div>
+				</div>
+			</section>	
+
+			<section>
+				<h2 class="heading">Industries Served</h2>
+				<!--============= ABOUT-TOP-BLOCK =============-->
+			<div class="about-top-block">
+				<div class="row">
+					<div class="col-12 col-md-4">
+						<a href="infra-mining.html">
+						<div class="about-block">
+							<div class="about-block-icon">
+								<img src="https://airpix.in/assets/images/surveying_mapping/infrastructure.png" alt="">
+							</div>
+							<div class="about-block-info">
+								<h5 class="expt">INFRA & MINING</h5>
+	
+							</div>
+						</div>
+					</a>
+					</div>
+
+					<div class="col-12 col-md-4">
+						<a href="utilities.html">
+						<div class="about-block">
+							<div class="about-block-icon">
+								<img src="https://airpix.in/assets/images/surveying_mapping/utilities.png" alt="">
+							</div>
+							<div class="about-block-info">
+								<h5 class="expt">UTILITIES</h5>
+	
+							</div>
+						</div>
+					</a>
+					</div>
+
+					<div class="col-12 col-md-4">
+						<a href="agriculture.html">
+						<div class="about-block">
+							
+							<div class="about-block-icon">
+								<img src="https://airpix.in/assets/images/industries/agriculture/agriculture/agriculture1.png" alt="">
+							</div>
+							<div class="about-block-info">
+								<h5 class="expt">AGRICULTURE</h5>
+							</div>
+						
+						</div>
+					</a>
+					</div>
+					
+				</div>
+			</div>
+
+			<!--=========== ABOUT-TOP-BLOCK END ===========-->
+			</section>	
+					
+	</section>	
+
+	<!--================= FOOTER =================-->
+	<footer>
+		<div class="container">			
+			<div class="footer-bottom">
+				<div class="row align-items-center footerr">
+					<div class="col-12 col-md-3">
+						<a href="index.html" class="logo footer-logo"><img src="img/logo.svg" alt="logo"></a>
+					</div>
+					<div class="copyright">
+						<p><a class="rovadex" href="https://rovadex.com" target="_blank">Rovadex</a> © 2019. <a href="pravicy-policy.html" target="_blank">All Rights Reserved.</a></p>
+					</div>
+					<div class="col-12 col-md-3">
+						<ul class="soc-link">
+							<li><a target="_blank" href="https://www.facebook.com/rovadex"><i class="fa fa-facebook" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" href="https://www.instagram.com/rovadex"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" href="https://www.youtube.com"><i class="fa fa-youtube" aria-hidden="true"></i></a></li>
+							<li><a target="_blank" href="https://vimeo.com/"><i class="fa fa-vimeo-square" aria-hidden="true"></i></a></li>
+						</ul>
+					</div>
+				</div>
+			</div>	
+		</div>
+	</footer>
+	<!--=============== FOOTER END ===============-->
+
+	<!--======================= Whatsapp =======================-->
+	<a class="whatsapp" href="https://wa.me/918301083231">
+		<i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+		<span>
+			<img src="img/icon-tab-1.svg" alt="">
+		</span>
+	</a>
+	<!--===================== Whatsapp END =====================-->
+
+	<!-- =============== STYLE =============== -->
+	<link rel="stylesheet" href="css/slick.min.css">
+	<link rel="stylesheet" href="css/bootstrap-grid.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+
+	<!--=============== TEMPLATE SCRIPT ===============-->
+	<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+	<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+	<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+	<script src="js/slick.min.js"></script>
+	<script src="js/scripts.js"></script>
+</body>
+</html>
