@@ -160,6 +160,10 @@ strong{
 .blue{
 	color: #0faee6;
 }
+.padding-margin{
+	margin: 0 !important;
+	padding: 0 !important;
+}
 .contact-btn{
 	background-color: red;
 	padding-top: 10px;
@@ -450,8 +454,7 @@ header.header-scroll .nav-menu{
 	-ms-align-items: center;
 	align-items: center;
 	position: relative;
-}
-.header-icon li:before{
+}/*.header-icon li:before{
 	content: '';
 	position: absolute;
 	top: 50%;
@@ -460,7 +463,7 @@ header.header-scroll .nav-menu{
 	height: 18px;
 	width: 1px;
 	background-color: rgba(255,255,255,.4);
-}
+}*/
 .header-icon li:last-child:before{
 	display: none;
 }
@@ -1154,9 +1157,9 @@ header.header-scroll .logo-strong{
 }
 
 /*------------------------ FOOTER ------------------------*/
-footer{
+.footerr{
 	padding-top: 50px;
-	background-color: #0e0e0e;
+	justify-content: center !important;
 }
 footer h5{
 	margin-bottom: 34px;
@@ -1259,13 +1262,13 @@ footer .soc-link{
 	justify-content: flex-end;
 }
 .soc-link li:not(:last-child){
-	margin-right: 25px;
+	margin-right: 20px;
 }
 .soc-link li a{
 	color: #fff;
 	width: 20px;
 	line-height: 20px;
-	font-size: 18px;
+	font-size: 20px;
 }
 .soc-link li a:hover{
 	color: #45a7ef;
@@ -3103,6 +3106,11 @@ i.fa-brands.fa-whatsapp{
 	}
 	.aerial-photo{
 		padding: 0 80px;
+	}
+	.center{
+		flex-direction: column;
+		min-width: auto;
+		margin: 0;
 	}
 	
 }

@@ -48,7 +48,7 @@ strong, b{
 	z-index: 99999999;
 }
 .cursor-primary span{
-	background: url(../img/cancel.svg);
+	background: url(../images-vedios/cancel.svg);
 	background-size: contain;
 	height: 14px;
 	width: 14px;
