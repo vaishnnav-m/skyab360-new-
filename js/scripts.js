@@ -342,7 +342,7 @@ $( window ).on( 'load', function(){
 
 	/**
 	 *-------------------- CONTACT FORM --------------------
-	*/
+	
 	if( $( '#contactform' )[0] ){
 		$( '#contactform' ).on( 'submit', function() {
 			var action = $( this ).attr( 'action' ),
@@ -374,7 +374,7 @@ $( window ).on( 'load', function(){
 			});
 			return false;
 		});
-	}
+	}*/
 
 	/**
 	 *--------------------- Google map --------------------

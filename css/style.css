@@ -1157,6 +1157,9 @@ header.header-scroll .logo-strong{
 }
 
 /*------------------------ FOOTER ------------------------*/
+footer{
+	background-color: #0e0e0e;
+}
 .footerr{
 	padding-top: 50px;
 	justify-content: center !important;
@@ -1291,11 +1294,11 @@ footer .soc-link{
 	background-position: center;
 	background-repeat: no-repeat;
 	background-size: cover;
-	min-height: 250px;
+	min-height:250px;
 	display: flex;
 	-ms-align-items: center;
 	align-items: center;
-	padding-top: 86px;
+	padding-top: 165px;
 }
 .page-title .title{
 	text-align: center;
@@ -1326,9 +1329,6 @@ footer .soc-link{
 }
 .contacts-top.about-top{
 	padding: 180px 0 166px;
-}
-.about-top-cover{
-	align-items: center;
 }
 .about-img img{
 	max-width: 100%;
@@ -1581,6 +1581,13 @@ footer .soc-link{
 .align{
 	width: 100%;
 	justify-content: center;
+}
+.read{
+	color:#45a7ef; 
+	margin:30px 0 30px 0;
+}
+.read:hover,.read:focus{
+	color: #0a9421;
 }
 
 /*-------------------- S-VIDEO --------------------*/
@@ -2304,6 +2311,9 @@ i.fa-brands.fa-whatsapp{
 	.about-info p {
 		margin-bottom: 16px;
 	}
+	.about-info{
+		padding-top: 20px;
+	}
 	.about-block-icon svg {
 		max-height: 40px;
 	}
@@ -2800,7 +2810,7 @@ i.fa-brands.fa-whatsapp{
 		max-width: 767px;
 	}
 	.contacts-top.about-top {
-		padding: 110px 0 96px;
+		padding: 27px 0 96px;
 	}
 	.s-testimonials.bg-testimonials {
 		min-height: 630px;
@@ -3404,5 +3414,14 @@ i.fa-brands.fa-whatsapp{
 	}
 	.txt{
 		padding: 0 20px;
+	}
+	.mobile{
+		display: none !important;
+	}
+	.end{
+		padding: 17px;
+	}
+	.page-title{
+		padding-top: 170px ;
 	}
 }
