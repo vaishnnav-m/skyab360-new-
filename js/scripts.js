@@ -316,20 +316,6 @@ $( window ).on( 'load', function(){
 		}
 	}
 	*/
-
-	/**
-	 *----------------------- TO TOP ----------------------
-	
-	$( window )
-	.on( 'scroll.myTemplate', scrollWindow)
-	.trigger( 'sctoll.myTemplate' );
-	function scrollWindow() {
-		if ($( window ).scrollTop() > 500) {
-			$('.to-top').addClass('active');
-		} else {
-			$('.to-top').removeClass('active');
-		}
-	}*/
 	
 	/**
 	 *-------------------- SCROLL SECTION -------------------
@@ -378,7 +364,7 @@ $( window ).on( 'load', function(){
 
 	/**
 	 *--------------------- Google map --------------------
-	*/
+	
 	if( $( '.google-map' )[0] ){
 		googleMapsInit();
 
@@ -402,7 +388,7 @@ $( window ).on( 'load', function(){
 				icon: 'img/icon-map.png'
 			});
 		}
-	}
+	}*/
 
 	/**
 	 *---------------------- LAZY  ---------------------
