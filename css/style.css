@@ -121,7 +121,7 @@ h2::before{
 	transform: translate(-50%,0);
 }
 h3{
-	font-size: 22px !important;
+	font-size: 21px !important;
 	margin:10px 0 ;
 }
 h4{
@@ -163,6 +163,10 @@ strong{
 .padding-margin{
 	margin: 0 !important;
 	padding: 0 !important;
+}
+.list-overview{
+	list-style: disc; 
+	margin: 0 50px;
 }
 .contact-btn{
 	background-color: red;
@@ -1161,7 +1165,7 @@ footer{
 	background-color: #0e0e0e;
 }
 .footerr{
-	padding-top: 50px;
+	padding-top: 0;
 	justify-content: center !important;
 }
 footer h5{
@@ -1515,6 +1519,7 @@ footer .soc-link{
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	
 }
 .aerial-photo{
 	display: flex;	
@@ -2849,8 +2854,9 @@ i.fa-brands.fa-whatsapp{
 		bottom: 15px;
 	}
 	.footer-bottom {
+		margin-top: 0;
 		text-align: center;
-    padding: 13px 0 26px;
+    padding:  0;
 	}
 	footer .soc-link {
 		justify-content: center;
@@ -2889,6 +2895,7 @@ i.fa-brands.fa-whatsapp{
 		flex-direction: row;
 		align-items: center;
 		justify-content: center;
+		padding:0;
 	}
 	.footer-logo{
 		display: inline-block;
@@ -3119,6 +3126,7 @@ i.fa-brands.fa-whatsapp{
 	}
 	.center{
 		flex-direction: column;
+		align-items: center;
 		min-width: auto;
 		margin: 0;
 	}
@@ -3167,10 +3175,7 @@ i.fa-brands.fa-whatsapp{
 	.blok-link {
 		margin-top: 50px;
 	}
-	.footer-bottom {
-		margin-top: 50px;
-		padding: 26px 0;
-	}
+	
 	.footer-menu,
 	.footer-logo{
 		display: none;
@@ -3423,5 +3428,14 @@ i.fa-brands.fa-whatsapp{
 	}
 	.page-title{
 		padding-top: 170px ;
+	}
+	.list-overview{
+		margin: 0 25px;
+	}
+	.overview-heading{
+		font-size:15px;
+	}
+	.c-service{
+		word-break: break-all;
 	}
 }
